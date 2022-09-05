@@ -3,15 +3,15 @@
 (function () {
     const ladder = {
         step: 0,
-        up: function () {
+        up () {
             this.step++;
             return this;
         },
-        down: function () {
+        down () {
             this.step--;
             return this;
         },
-        showStep: function () { // показывает текущую ступеньку
+        showStep () { // показывает текущую ступеньку
             console.log((this.step));
             return this;
         }
