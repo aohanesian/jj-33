@@ -12,8 +12,7 @@
             return this;
         },
         showStep () { // показывает текущую ступеньку
-            console.log((this.step));
-            return this;
+            console.log(this.step);
         }
     };
     ladder.up().up().down().showStep(); // 1
